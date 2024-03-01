@@ -58,6 +58,7 @@ section.sidebar {
 .input-text {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     width: 817px;
     justify-content: start;
     align-items: center;
@@ -94,6 +95,7 @@ section.sidebar {
 .input-number {
     /* border: 1px solid green; */
     display: flex;
+    flex-wrap: wrap;
     width: 506px;
     justify-content: start;
     align-items: center;
@@ -129,6 +131,7 @@ section.sidebar {
 .note-text {
     /* border: 1px solid blue; */
     display: flex;
+    flex-wrap: wrap;
     width: 817px;
     justify-content: start;
     align-items: center;
@@ -284,6 +287,12 @@ section.sidebar {
     justify-content: center;
     align-items: center;
     left: 3px;
+}
+.section2{
+    flex-wrap: wrap;
+}
+.section3{
+    flex-wrap: wrap;
 }
 
 .toggle::after {
